@@ -31,3 +31,7 @@ Li [aqui](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-O
 `git clean -fxd`
 
 Estudar mais sobre a aplicação dos dois comando acima.
+
+Deletar todas as outras branches, exceto a main
+
+`git branch | grep -v "main" | xargs git branch -D`
